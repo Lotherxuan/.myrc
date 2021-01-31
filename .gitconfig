@@ -1,0 +1,11 @@
+[core]
+	editor = code --wait
+[user]
+	name = lother
+	email = 563791534@qq.com
+[http]
+	proxy = http://127.0.0.1:7890
+[https]
+	proxy = https://127.0.0.1:7890
+[pull]
+	rebase = false

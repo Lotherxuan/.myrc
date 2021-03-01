@@ -1,5 +1,5 @@
 [core]
-	editor = code --wait
+	editor = vim
 [user]
 	name = lother
 	email = 563791534@qq.com

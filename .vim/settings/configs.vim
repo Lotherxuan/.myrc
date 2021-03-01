@@ -18,3 +18,6 @@ set undofile
 
 " all lowercase-> insensitive | one or more uppercase -> sensitive
 set ignorecase smartcase 
+
+" make config change take effect right now
+autocmd BufWritePost $MYVIMRC source $MYVIMRC

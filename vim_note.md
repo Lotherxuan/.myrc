@@ -177,6 +177,10 @@ t         XML tags
 
 
 
+#### chapter 5
+
+
+
 #### 单词导航
 
 ```
@@ -895,6 +899,31 @@ Ctrl-e    移动到该行的结束
 ##### 插入寄存器中的值
 
 可以使用 `Ctrl-r` 来插入 Vim 寄存器中的文本（就和输入模式中的一样）。如果寄存器 "a 中存储着 "foo" 字符串，运行 `Ctrl-r a` 就可以插入它。
+
+
+
+#### 杂项
+
+
+
+##### 按键映射
+
+| 递归    | 非递归      | 模式                             |
+| ------- | ----------- | -------------------------------- |
+| `:map`  | `:noremap`  | normal, visual, operator-pending |
+| `:nmap` | `:nnoremap` | normal                           |
+| `:xmap` | `:xnoremap` | visual                           |
+| `:cmap` | `:cnoremap` | command-line                     |
+| `:omap` | `:onoremap` | operator-pending                 |
+| `:imap` | `:inoremap` | insert                           |
+
+
+
+##### 映射前置键(leader)
+
+```
+let g:mapleader=";"
+```
 
 
 
